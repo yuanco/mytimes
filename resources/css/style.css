@@ -190,3 +190,51 @@ div.border {
   width: 200px;
   padding-left: 15px;
 }
+
+
+.footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.links a {
+  color: black;
+}
+
+#link-text {
+  padding: 10px;
+  margin-left: 5px;
+
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+}
+
+.mytimes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#mytimes-text {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+}
