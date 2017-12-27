@@ -159,3 +159,34 @@ div.medium {
 div.small {
   width: 240px;
 }
+
+.bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#new-bites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.border {
+  display: flex;
+}
+
+div.border {
+  border-bottom: 1px solid black;
+
+}
+
+.side {
+  width: 200px;
+  padding-left: 15px;
+}
